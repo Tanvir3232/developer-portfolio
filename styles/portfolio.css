@@ -187,3 +187,29 @@ section {
 .resume-button{
     margin: 30px 41%;
 }
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 116px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+  
+
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 0px;
+}
+.contact input{
+    height: 50px;
+}
+.contact a{
+    text-decoration: none;
+}
