@@ -17,7 +17,16 @@
     font-weight: 700;
     font-size: 20px;
 }
-
+.btn-transparent{
+    height: 64px;
+    color: #FD6E0A;
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 18px 36px;
+    font-weight: 700;
+    font-size: 20px;
+}
 .header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -184,7 +193,7 @@ section {
 }
 
 .resume-button{
-    margin: 30px 41%;
+    margin: 30px 40%;
 }
 /* contact styles */
 .contact{
@@ -206,7 +215,7 @@ section {
     font-size: 20px;
     border: 0px;
 }
-.contact input{
+.contact input[type="text"]{
     height: 50px;
 }
 .contact a{
